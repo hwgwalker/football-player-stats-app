@@ -61,6 +61,7 @@ transition: transform 150ms;
     background-color: white;
     position: relative;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .subheading {
