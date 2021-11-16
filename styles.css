@@ -45,11 +45,12 @@ body {
     font-weight: bold;
 }
 
+
 .button:hover{
-    background-color: #14213d;
-    color: white;
-    border: 2px solid white;
+transform: scale(1.05);
+transition: transform 150ms;
 }
+
 
 
 .content {
