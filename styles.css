@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: #14213d;
+}
+
+.heading {
+    margin-top: 5vh;
+}
+
+.input {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    font-size: 20px;
+}
+
+.inputValue {
+    width: 50vw;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #14213d;
+}
+
+.button {
+    border-radius: 10px;
+    width: 80px;
+    border: 2px solid black;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: #14213d;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.content {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2rem;
+    color: black;
+    background-color: white;
+    position: relative;
+    align-items: center;
+}
+
+.subheading {
+    padding-top: 20px;
+    margin-top: 40px;
+    border-top: 1px solid white;
+}
+
+.subhead-text {
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.image-section {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.profile {
+border-bottom: 1px solid #ddd;
+}
+
+.bio-section {
+    padding: 10px;
+}
+
+.stats-section {
+    padding: 10px;
+    margin-top: 10px;
+}
